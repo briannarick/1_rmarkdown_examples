@@ -139,5 +139,5 @@ dygraph(lungDeaths, main = "Deaths from Lung Disease (UK)") %>%
 
 ## Poudre Paragraph
 
-The Poudre River is a river located in Colorado
+The [Cache la Poudre River](https://www.fs.usda.gov/recarea/arp/recarea/?recid=81605) is a river located in Colorado, and provides water for more than **500,000 people** in the Colorado Front Range. This is the **only** river in Colorado that is designated as a [Wild and Scenic River.](https://rivers.gov/) This river provides many recreational opportunities, such as: *camping, rafting, mountain biking, [hiking](https://www.alltrails.com/parks/us/colorado/cache-la-poudre-wilderness), and fishing.* 
 
