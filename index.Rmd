@@ -124,11 +124,15 @@ todays date, not just a static date you enter.
 ```{r}
 lungDeaths <- cbind(ldeaths, mdeaths, fdeaths)
 
-dygraph(lungDeaths) %>%
+dygraph(lungDeaths, main = "Deaths from Lung Disease (UK)") %>%
   dySeries("mdeaths", label = "Male") %>%
   dySeries("fdeaths", label = "Female") %>%
   dyOptions(stackedGraph = TRUE) %>%
   dyOptions(drawPoints = TRUE, pointSize = 2) %>% 
+    dyHighlight(highlightCircleSize = 5, 
+              highlightSeriesBackgroundAlpha = 0.2,
+              hideOnMouseOut = FALSE) %>% 
+  dyAxis("y", label = "Number of Deaths") %>% 
   dyRangeSelector(height = 20)
 ```
 
