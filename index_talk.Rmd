@@ -2,11 +2,7 @@
 title: "Discharge Data Example"
 author: "Brianna Rick"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    toc_depth: 3
+output: revealjs::revealjs_presentation
 editor_options: 
   chunk_output_type: console
 ---
